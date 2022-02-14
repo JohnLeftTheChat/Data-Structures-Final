@@ -1,0 +1,21 @@
+Get sentence
+Store each word as a node in the stack
+while (input != quit)
+	if input's first three letters are "add"
+		add the following word into a node, add to the stack using push()
+	if input == delete
+		Delete the top of the stack using pop() and top()
+		add node to Removed LinkedList?	
+	if input == undo
+		add/ push() the last node in Removed LinkedList to the stack using add 
+	if input == redo 
+		check for previous undos (will not run if there have been no previous undo)
+		pop() the top node of the stack
+		add/ push() the node to the Removed LinkedList?
+	if input == print
+		Display the start of the stack
+
+	
+		
+	
+			
